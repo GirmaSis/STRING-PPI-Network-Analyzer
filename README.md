@@ -22,10 +22,10 @@ You can do this using the following commands:
 git clone https://github.com/your-username/protein-interaction-network-analyzer.git
 cd protein-interaction-network-analyzer
 pip install -r requirements.txt
-
+```
 ## Running the Script:
-```sh
-python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA -o output.csv -t 0.4
-python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A -o output_4.csv -t 0.4
+
+`python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA -o output.csv -t 0.4`
+`python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A -o output_4.csv -t 0.4`
 
 
