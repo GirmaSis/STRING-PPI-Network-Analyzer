@@ -1,11 +1,6 @@
-# STRING-PPI-Filter-and-Network-Analyzer
+# STRING-PPI-Network-Analyzer
 
 
-## Running the Script:
-
-''python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA -o output.csv -t 0.4''
-
-> python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A -o output_4.csv -t 0.4
 
 
 This repository contains a Python script that identifies and prints interactions between a given list of proteins. The script fetches interaction data from the STRING database API and filters interactions with a medium or higher confidence experimental score.
@@ -28,5 +23,9 @@ git clone https://github.com/your-username/protein-interaction-network-analyzer.
 cd protein-interaction-network-analyzer
 pip install -r requirements.txt
 
+## Running the Script:
+```sh
+python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA -o output.csv -t 0.4
+python ppi_analyzer.py -g TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A -o output_4.csv -t 0.4
 
 
