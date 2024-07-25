@@ -27,10 +27,10 @@ python ppi_network_analyzer.py -g TP53 BRCA1 EGFR VEGFA -o output_1.csv -t 0.4
 python ppi_network_analyzer.py -g TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A -o output_2.csv -t 0.4
 python ppi_network_analyzer.py -g AKT1 GSK3B MTOR MAPK1 MAPK3 JUN FOS RPS6KB1 RPS6 EIF4EBP1 -o output_3.csv -t 0.4
 ```
-***Protein-Protein Interaction Network: TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A *** 
+***Protein-Protein Interaction Network:*** TP53 BRCA1 EGFR VEGFA MYC PTEN ESR1 CDKN2A 
 ![interaction network_1](Figure_1.png)
 
-*** Protein-Protein Interaction Network: GSK3B MTOR MAPK1 MAPK3 JUN FOS RPS6KB1 RPS6 EIF4EBP1 *** 
+***Protein-Protein Interaction Network:*** GSK3B MTOR MAPK1 MAPK3 JUN FOS RPS6KB1 RPS6 EIF4EBP1
 ![interaction network_2](Figure_2.png)
 
 
